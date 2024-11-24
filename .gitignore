@@ -6,6 +6,10 @@ __pycache__/
 # C extensions
 *.so
 
+# OS-specific files
+.DS_Store       # macOS
+Thumbs.db       # Windows
+
 # Distribution / packaging
 .Python
 build/
