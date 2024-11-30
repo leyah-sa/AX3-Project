@@ -1,35 +1,55 @@
-# Analyse des données d'activité physique : Influence du tabagisme et du sexe 
+# AX3-PROJECT : Analyse des données d'activité physique par accélérométrie - Influence du tabagisme et du sexe
 
 ## Description
 
-Ce projet à pour objectif d'analyser l'impact du tabagisme et du sexe sur les performances sportives. Les données traité proviennent de deux individus : un homme non fumeur et une femme fumeuse, exerçant tous deux une activité sportives régulières. Les enregistrements ont été réalisé lors de l'exercice d'une activités physiques similaire, réalisé à la même heure et le même jour (activité cardio et de force).  Grâce à python, nous souhaitons explorer les différences physiologique et de performance entre ces deux profils.
+Ce projet à pour objectif d'analyser l'impact du tabagisme et du sexe sur les performances sportives. Les données traité proviennent de deux individus : 
 
+- Un homme non-fumeur, sportif régulier.
+- Une femme fumeuse, ayant une activité physique modérée.
+
+Les données ont été collectées dans des conditions réelles, où chaque participant portait un accéléromètre AX3 au poignet dominant durant des activités physiques similaires, réalisées à la même heure et le même jour. Grâce à python, nous souhaitons explorer les différences physiologique et de performance entre ces deux profils.
 ---
 
 ## Objectifs
 
-- Comparer les performances sportives entre une femme fumeuse et un homme non-fumeur.
-- Comparer les données d'activité physique pour une activité cardio et une activité de force type musuclation. 
-- Analyser les variations physiologiques (rythme cardiaque, oxygénation, endurance, etc.) entre les deux profils.
-- Identifier les éventuelles corrélations entre le tabagisme et la performance physique.
+1. **Quantifier l'AP** : Mesurer la durée, intensité, cadence, et dépense énergétique des activités physiques.
+2. **Analyser les données** : Étudier les corrélations et extraire des indicateurs clés (ENMO).
+3. **Comparer les profils** : Identifier les différences entre un sujet fumeur et un sujet non-fumeur.
+4. **Visualiser les résultats** : Présenter des graphiques et interprétations des données capturées.
 
 ---
 
 ## Structure du projet
 
-- `data/` : Contient les données brutes collectées au format CSV.
-- `notebooks/` : Contient les notebooks Jupyter pour l'exploration et l'analyse des données.
-- `results/` : Contient les graphiques, rapports, et autres résultats générés.
-- 'main.ipynb/' : 
-- `README.md` : décrit le projet.
+- **`data/`** : Contient les données brutes d'accélérométrie au format CSV.
+- **`notebooks/`** :
+  - **`Non-smoker/`** : Analyse des données du participant non-fumeur :
+    - Prétraitement et visualisation des données naturelles.
+    - Étude des corrélations entre les variables (fréquence, intensité, ENMO, etc.).
+    - Analyse des variations de cadence et des performances.
+  - **`Smoker/`** : Analyse des données de la participante fumeuse :
+    - Prétraitement et visualisation des données naturelles.
+    - Étude des corrélations entre les variables (fréquence, intensité, ENMO, etc.).
+    - Analyse des variations de cadence et des performances.
+- **`results/`** : Contient les graphiques, tableaux et rapports issus des analyses.
+- **`main.ipynb`** : Notebook principal pour l'exploration globale et la synthèse des résultats.
+- **`.gitignore`** : Fichier pour exclure certains éléments du contrôle de version.
+- **`README.md`** : Décrit le projet.
 
 ---
 
 ## Prérequis
 
 - Python 3.9 ou plus récent.
-- Environnement de développement compatible (VSCode recommandé) avec les extensions suivantes :
-  - **Python**
-  - **Jupyter**
+- Bibliothèques nécessaires :
+  - `numpy`
+  - `pandas`
+  - `matplotlib`
+  - `seaborn`
+  - `scipy`
 
 ---
+## Installation
+
+- Clonez le dépôt sur votre machine locale.
+  
