@@ -1,10 +1,21 @@
 
-Les deux jeux de données " NoneSmokerCardio.csv" et "SmokerCardio.csv" contiennent tous deux 4 colonnes : 
+## **Description des Jeux de Données**
 
-- Une première colonne contenant des informations temporelles, avec la date, l'heure, minute et secondes de chaque données enregistrées.
-- Trois colonnes qui correspondent a des mesures quantitatives issues d'un accéléromètre de la marque Axivitys :  le AX3. 
+Les deux jeux de données, **`NoneSmokerCardio.csv`** et **`SmokerCardio.csv`**, contiennent chacun **4 colonnes** :
 
-Ces données ont été enregistrée suite à l'exercice d'une activité physique d'un Homme non fumeur de 19 ans, mesurant ... ,et pesant ..et d'un Homme Fumeur de 21 ans, mesurant et pesant. 
+1. **Première colonne** : Informations temporelles, avec la date, l'heure, les minutes et les secondes pour chaque donnée enregistrée. 
+2. **Trois autres colonnes** : Mesures quantitatives issues d'un accéléromètre de la marque **Axivity** (modèle **AX3**).
 
-La data "SmokerCardio.csv" contient 2844600 données, l'enregistrement a été fait sur une durée de 1h30. 
-La data "NoneSmokerCardio.csv" contient 2937600 données, l'enregistrement a également été fait sur une durée de 1h30.
+### **Contexte**
+Ces données ont été collectées lors de l’exercice d’une activité physique effectuée par deux participants :
+- **Participant 1** : Un homme non-fumeur, âgé de 21 ans, mesurant 1,84 m et pesant 88 kg.
+- **Participant 2** : Une femme fumeuse, âgée de 23 ans, mesurant 1,71 m et pesant 64 kg.
+
+### **Caractéristiques des Données**
+- **`SmokerCardio.csv`** :
+  - Contient **2 844 600 données**.
+  - Enregistrée sur une durée totale de **1h30**.
+  
+- **`NoneSmokerCardio.csv`** :
+  - Contient **2 937 600 données**.
+  - Enregistrée également sur une durée totale de **1h30**.
