@@ -1,11 +1,11 @@
-# AX3-PROJECT : Analyse des données d'activité physique par accélérométrie - Influence du tabagisme et du sexe
+# AX3-PROJECT : Analyse des données d'activité physique par accélérométrie - Influence du tabagisme
 
 ## Description
 
-Ce projet à pour objectif d'analyser l'impact du tabagisme et du sexe sur les performances sportives. Les données traité proviennent de deux individus : 
+Ce projet à pour objectif d'analyser l'impact du tabagisme sur les performances sportives. Les données traité proviennent de deux individus : 
 
-- Un homme non-fumeur, sportif régulier.
-- Une femme fumeuse, ayant une activité physique modérée. 
+- Un Homme non-fumeur, sportif régulier.
+- Un Homme fumeur, ayant une activité physique modérée. 
 
 Les données ont été collectées dans des conditions réelles, où chaque participant portait un accéléromètre AX3 au poignet dominant durant des activités physiques similaires, réalisées à la même heure et le même jour. Grâce à python, nous souhaitons explorer les différences physiologique et de performance entre ces deux profils.
 

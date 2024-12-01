@@ -8,8 +8,8 @@ Les deux jeux de données, **`NoneSmokerCardio.csv`** et **`SmokerCardio.csv`**,
 
 ### **Contexte**
 Ces données ont été collectées lors de l’exercice d’une activité physique effectuée par deux participants :
-- **Participant 1** : Un homme non-fumeur, âgé de 21 ans, mesurant 1,84 m et pesant 88 kg.
-- **Participant 2** : Une femme fumeuse, âgée de 23 ans, mesurant 1,71 m et pesant 64 kg.
+- **Participant 1** : Un homme non-fumeur, sportif, âgé de 21 ans, mesurant 1,84 m et pesant 88 kg.
+- **Participant 2** : Un homme fumeur, avec une pratique d'acitivité physique régulière mais modérée, âgée de 23 ans, mesurant 1,71 m et pesant 64 kg.
 
 ### **Caractéristiques des Données**
 - **`SmokerCardio.csv`** :
